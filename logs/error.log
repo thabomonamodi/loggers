@@ -1,2 +1,6 @@
-2020-03-12 13:26:14,172 | PasswordChecker: password length should be 8 characters long.
-2020-03-12 13:26:14,177 | PasswordChecker: password length should be 8 characters long.
+2020-03-12 14:31:21,487 | PasswordChecker: password length should be 8 characters long.
+2020-03-12 14:31:21,492 | PasswordChecker: password cannot be empty.
+2020-03-12 14:31:21,493 | PasswordChecker: password should contain lowercase.
+2020-03-12 14:31:21,494 | PasswordChecker: password length should be 8 characters long.
+2020-03-12 14:31:21,495 | PasswordChecker: password cannot be empty.
+2020-03-12 14:31:21,495 | PasswordChecker: password should contain lowercase.

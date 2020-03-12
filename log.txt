@@ -1,1 +1,1 @@
-PasswordChecker:DEBUG in 799f7e29gtfu: Not a valid password!
+PasswordChecker:ERROR in 799f7e29: Not a valid password!

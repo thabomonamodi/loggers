@@ -17,19 +17,19 @@ public class PasswordChecker
             if (password.length()<8)
             {
                 //System.out.println("password length should be 8 characters long.");
-                log.debug("password length should be 8 characters long.");
+                log.error("password length should be 8 characters long.");
                 check=false;
             }
 
             if (password.isEmpty())
             {
-                System.out.println("password cannot be empty.");
+                log.error("password cannot be empty.");
                 check=false;
             }
 
             if (!password.matches("(.*[a-z].*)"))
             {
-                System.out.println("password should contain lowercase.");
+                log.error("password should contain lowercase.");
                 check=false;
             }
             if (!password.matches("(.*[A-Z].*)"))
@@ -55,11 +55,12 @@ public class PasswordChecker
         }
         return check;
     }
-    /*public static boolean passwordIsOk(String password)throws Exception
+    public static boolean passwordIsOk(String password)throws Exception
     {
         //noinspection SingleStatementInBlock
         if ((password.length() < 8) || !password.matches("(.*[a-z].*)"))
         {
+            log.error("gd");
             throw new Exception("Password should meet at least 3 of the conditions.\n"+
                     "1. Password length should be 8 characters long.\n"+
                     "2. Password cannot be empty.\n"+
@@ -69,6 +70,7 @@ public class PasswordChecker
         }
         if (!password.matches("(.*[A-Z].*)")|| !password.matches("(.*[@#$%!].*)") || !password.matches("(.*[0-9].*)"))
         {
+            log.error("ba");
             throw new Exception("Password should meet at least 3 of the conditions:\n"+
                     "1. Password should contain uppercase.\n"+
                     "2. Password should have at least one special case.\n"+
@@ -76,7 +78,7 @@ public class PasswordChecker
         }
         return true;
     }
-    public static boolean passwordIsNeverOk(String password)throws Exception
+    /*public static boolean passwordIsNeverOk(String password)throws Exception
     {
         if (password.length() < 8)
         {
