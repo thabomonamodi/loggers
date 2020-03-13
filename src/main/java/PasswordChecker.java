@@ -58,31 +58,25 @@ public class PasswordChecker
         {
             if ((password.length() < 8) || !password.matches("(.*[a-z].*)"))
             {
-                throw new Exception("Password should meet at least 3 of the conditions.\n"+
+                System.out.println("Password should meet at least 3 of the conditions.\n"+
                     "1. Password length should be 8 characters long.\n"+
                     "2. Password cannot be empty.\n"+
                     "3. Password should contain lowercase.");
+                return false;
             }
-            return false;
-        }
-        catch (Exception e)
-        {
-            log.error(e);
-        }
-        try
-        {
+
             if (!password.matches("(.*[A-Z].*)")|| !password.matches("(.*[@#$%!].*)") || !password.matches("(.*[0-9].*)"))
             {
-                throw new Exception("Password should meet at least 3 of the conditions:\n"+
+                System.out.println("Password should meet at least 3 of the conditions:\n"+
                         "1. Password should contain uppercase.\n"+
                         "2. Password should have at least one special case.\n"+
                         "3. Password should have at least one digit.");
+                return false;
             }
-            return false;
         }
         catch (Exception e)
         {
-            log.error(e);
+            log.error(e.getMessage());
         }
 
         return true;
@@ -125,7 +119,7 @@ public class PasswordChecker
         {
             System.out.println(s + ": Not a valid password!");
         }
-        /*if (passwordIsOk(s))
+        if (passwordIsOk(s))
         {
             System.out.println("Password is ok");
         }
@@ -133,8 +127,6 @@ public class PasswordChecker
         {
             System.out.println("Password is not okay.");
         }
-        passwordIsNeverOk(s);*/
-
     }
 }
 
