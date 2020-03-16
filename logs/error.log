@@ -1,34 +1,16 @@
-2020-03-12 14:31:21,487 | PasswordChecker: password length should be 8 characters long.
-2020-03-12 14:31:21,492 | PasswordChecker: password cannot be empty.
-2020-03-12 14:31:21,493 | PasswordChecker: password should contain lowercase.
-2020-03-12 14:31:21,494 | PasswordChecker: password length should be 8 characters long.
-2020-03-12 14:31:21,495 | PasswordChecker: password cannot be empty.
-2020-03-12 14:31:21,495 | PasswordChecker: password should contain lowercase.
-2020-03-13 13:47:29,905 | PasswordChecker: password length should be 8 characters long.
-2020-03-13 13:47:29,910 | PasswordChecker: password cannot be empty.
-2020-03-13 13:47:29,911 | PasswordChecker: password should contain lowercase.
-2020-03-13 13:47:29,911 | PasswordChecker: password should contain uppercase.
-2020-03-13 13:47:29,911 | PasswordChecker: password should have at least one special case.
-2020-03-13 13:47:29,911 | PasswordChecker: password should have at least one digit.
-2020-03-13 14:16:18,121 | PasswordChecker: password length should be 8 characters long.
-2020-03-13 14:16:18,124 | PasswordChecker: password cannot be empty.
-2020-03-13 14:16:18,125 | PasswordChecker: password should contain lowercase.
-2020-03-13 14:16:18,125 | PasswordChecker: password should contain uppercase.
-2020-03-13 14:16:18,125 | PasswordChecker: password should have at least one special case.
-2020-03-13 14:16:18,125 | PasswordChecker: password should have at least one digit.
-2020-03-13 14:48:42,400 | PasswordChecker: password should contain uppercase.
-2020-03-13 14:48:42,407 | PasswordChecker: password should have at least one special case.
-2020-03-13 14:48:42,407 | PasswordChecker: password should have at least one digit.
-2020-03-13 14:48:42,407 | PasswordChecker: Password should meet at least 3 of the conditions:
+[ERROR] 2020-03-16 10:53:17,745 | PasswordChecker: password length should be 8 characters long.
+[ERROR] 2020-03-16 10:53:17,749 | PasswordChecker: password should contain uppercase.
+[ERROR] 2020-03-16 10:53:17,749 | PasswordChecker: password should have at least one special case.
+[ERROR] 2020-03-16 10:53:17,749 | PasswordChecker: password should have at least one digit.
+[ERROR] 2020-03-16 10:54:33,082 | PasswordChecker: password should have at least one special case.
+[ERROR] 2020-03-16 10:55:50,696 | PasswordChecker: password should have at least one special case.
+[ERROR] 2020-03-16 10:55:50,699 | PasswordChecker: Password should meet at least 3 of the conditions:
 1. Password should contain uppercase.
 2. Password should have at least one special case.
 3. Password should have at least one digit.
-2020-03-13 14:49:45,768 | PasswordChecker: password should contain uppercase.
-2020-03-13 14:49:45,772 | PasswordChecker: password should have at least one special case.
-2020-03-13 14:49:45,772 | PasswordChecker: password should have at least one digit.
-2020-03-13 14:49:45,772 | PasswordChecker: Password should meet at least 3 of the conditions:
+[ERROR] 2020-03-16 10:56:35,783 | PasswordChecker: password should contain uppercase.
+[ERROR] 2020-03-16 10:56:35,787 | PasswordChecker: Password should meet at least 3 of the conditions:
 1. Password should contain uppercase.
 2. Password should have at least one special case.
 3. Password should have at least one digit.
-2020-03-13 14:52:10,170 | PasswordChecker: password should have at least one special case.
-2020-03-13 14:52:10,174 | PasswordChecker: password should have at least one digit.
+[ERROR] 2020-03-16 10:57:58,013 | PasswordChecker: password should contain uppercase.
