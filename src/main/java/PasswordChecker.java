@@ -19,7 +19,7 @@ public class PasswordChecker
 
             if (password.isEmpty())
             {
-                log.error("password cannot be empty.");
+                log.fatal("password cannot be empty.");
                 check=false;
             }
 
@@ -47,7 +47,7 @@ public class PasswordChecker
         }
         catch (Exception e)
         {
-            log.warn("make sure the above conditions are met."+e.getMessage());
+            log.info("make sure the above conditions are met."+e.getMessage());
         }
         return check;
     }
@@ -119,14 +119,7 @@ public class PasswordChecker
         {
             System.out.println(s + ": Not a valid password!");
         }
-        if (passwordIsOk(s))
-        {
-            System.out.println("Password is ok");
-        }
-        else
-        {
-            System.out.println("Password is not okay.");
-        }
+
     }
 }
 
